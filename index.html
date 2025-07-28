@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <audio id="bgMusic" src="song.mp3" preload="auto"></audio>
+  <div class="container">
+    <h1>Happy Birthday, My Baby! 🎉</h1>
+
+    <div class="cake-container">
+      <div class="cake">🎂</div> 
+      <div id="flame" class="flicker">🔥</div>
+    </div>
+
+    <p class="message">Make a wish and blow the candle! 💖</p>
+    <button id="cardBtn">Open Birthday Card</button>
+    <button id="galleryBtn">Our Memories</button>
+    <button id="pauseMusicBtn">⏸️ Pause Music</button>
+
+    <div id="card">
+      <h2>To My Sweetest, Most Gorgeous Baby 💌</h2>
+      <p>
+        To my sweetest, most gorgeous, lovely baby,
+
+Happy, happy birthday!! 🎉🎂
+Even though we're miles apart right now and I can't be there to celebrate this special day with you physically, please know that my heart is right there beside you, probably glued to your side forever, like a clingy glue. 😌💗
+
+I miss you like crazy. As in, super duper miss youuu naaa huhu. And that's saying something! 😩 Every day without you feels like I'm going to die soon. Super lungkot, may slow-mo, tapos biglang flashback ng mga lambing mo. 🥹💕
+
+But today isn't just any day, it's your day! And I hope you feel just how loved, adored, and cherished you are, not just by everyone around you, but especially by me. You're my sunshine, my peace, my favorite notification, and
+
+honestly, the reason I smile for no reason (and look like a fool in public sometimes, salamat ha 😆).
+
+Even though I can’t wrap you in a birthday hug right now (kung nakakapag teleport lang talaga ako byy, aaraw arawin ko talaga HAHAHAHA), I’m sending you all the warmth, lambing, and tight cuddles through this message.
+
+Consider it a virtual yakap, plus bonus forehead kiss 😘.
+
+You deserve all the best today and every day, byyy. So eat like a princess, wear that cute smile, and don’t forget to enjoy your day. I'm always here if you need someone oki, your'e not alone anymore. You have me ALWAYS.
+
+Can’t wait to see you, hold you, and finally celebrate together (kahit belated, basta ikaw!).
+I love you sooo much baby, always and forever. 💕🥰 <br><br>
+
+Hulog ka ng langit,<br>
+binigay ka sakin<br>
+I'll cherish you forever,<br>
+'till my heart stops altogether<br>
+
+Happy Birthday, my wife.
+Mwah! 😘💕
+
+      </p>
+      <p class="mwah">Mwah! 😘</p>
+    </div>
+
+     <div class="gallery-wrapper">
+      <div class="gallery" id="photoGrid"></div>
+      <div class="gallery-controls">
+        <button id="prevBtn"></button>
+        <span id="photoCounter"></span>
+        <button id="nextBtn"></button>
+      </div>
+    </div>
+
+  <div id="lightbox" class="lightbox">
+  <span id="closeLightbox">&times;</span>
+  <img id="lightboxImg" src="" alt="Selected">
+  <div id="photoIndexDisplay"></div>
+  <button id="lightboxPrev" class="lightbox-nav left">&#10094;</button>
+  <button id="lightboxNext" class="lightbox-nav right">&#10095;</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
